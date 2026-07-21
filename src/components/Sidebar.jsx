@@ -87,7 +87,11 @@ function Sidebar() {
     >
       <div className="profile">
         <div className="profile-image">
-          <span>SR</span>
+          <img
+            src="/profile/profile-photo.png"
+            alt="Salman Jahan Rafi"
+            className="profile-photo"
+          />
         </div>
 
         <h1>Salman Jahan Rafi</h1>
@@ -160,6 +164,7 @@ function Sidebar() {
           >
             <FileText size={16} />
             <span>Resume</span>
+
             <ChevronUp
               size={15}
               className={resumeOpen ? '' : 'sidebar-chevron-down'}
