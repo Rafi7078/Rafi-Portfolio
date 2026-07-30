@@ -17,9 +17,30 @@ export const certifications = [
     certificateUrl: '/certificates/deloitte.png',
     featured: true,
   },
+  
+  {
+  id: 2,
+  title: 'Career Essentials in Generative AI',
+  issuer: 'Microsoft & LinkedIn Learning',
+  image: '/certificates/generative-ai.png',
+  date: 'July 2026',
+  credentialType: 'Learning Path Certificate',
+  description:
+    'Completed the Career Essentials in Generative AI learning path by Microsoft and LinkedIn Learning. Developed foundational knowledge of generative AI, Microsoft Copilot and responsible AI practices. Learned how AI tools can improve productivity, creativity and problem-solving. Strengthened my understanding of using AI ethically, safely and effectively in professional environments.',
+  skills: [
+    'Generative AI',
+    'Microsoft Copilot',
+    'Responsible AI',
+    'AI Productivity',
+    'Ethical AI',
+  ],
+  certificateUrl: '/certificates/generative-ai.png',
+  featured: true,
+},
+
 
   {
-    id: 2,
+    id: 3,
     title: 'Excel Essentials for Workplace Productivity',
     issuer: 'UNICEF Passport to Earning',
     image: '/certificates/excel.png',
@@ -37,22 +58,5 @@ export const certifications = [
     featured: true,
   },
 
-  {
-    id: 3,
-    title: 'Art of Problem Definition',
-    issuer: 'UNICEF Passport to Earning',
-    image: '/certificates/problem-definition.png',
-    date: 'July 2026',
-    credentialType: 'Professional Certificate',
-    description:
-      'Developed structured problem-definition skills for identifying root causes, clarifying challenges and supporting effective decision-making.',
-    skills: [
-      'Problem Definition',
-      'Critical Thinking',
-      'Root Cause Analysis',
-      'Decision-Making',
-    ],
-    certificateUrl: '/certificates/problem-definition.png',
-    featured: false,
-  },
+ 
 ]
