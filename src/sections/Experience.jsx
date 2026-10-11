@@ -11,7 +11,7 @@ const experiences = [
     period: 'July 2026 — Present',
     role: 'Data  Analyst',
     company: 'Rooya Bangladesh',
-    team: 'Level Master (LM) Team',
+    team: 'Data Engineer Team',
     icon: DatabaseZap,
     points: [
       'Review and validate image and text annotations according to project-specific guidelines to maintain dataset accuracy,consistency, and overall quality.',
